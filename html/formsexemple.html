@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormsExemple</title>
+    <style>
+        .styled-div {
+            height: 40px;
+        }
+        .styled-div2 {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="styled-div">
+        <label for="nome">Name:</label>
+        <input type="text" id="fnome" name="fnome" />
+        
+    </div>
+    <div class="styled-div">
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex">
+        <label for="Male">Male</label>
+        <input type="radio" name="sex">
+        <label for="Male">Female</label>
+
+    </div>
+    <div class="styled-div">
+        <label for="countrypet-select">Country:</label>
+
+        <select name="country" id="country">
+        <option value="">Select an option</option>
+        <option value="brazil">Brazil</option>
+        <option value="narnia">Narnia</option>
+        </select>
+    </div>
+    <div >
+        <label for="Message">Message:</label>
+        
+    </div>
+    <div class="styled-div2"> 
+        <!-- <input type="text" id="message" name="message"  /> -->
+       
+        <textarea id="message" name="message" rows="5" cols="33">
+            
+        </textarea>      
+    </div>
+    
+    <div class="styled-div">
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe?</label>
+    </div>
+    <div >
+        <input type="submit" value="Submit" />
+    </div>
+</body>
+</html>
