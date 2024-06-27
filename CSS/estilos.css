@@ -1,0 +1,14 @@
+.paragrafo{
+    background-color: rgb(204, 74, 200);
+}
+
+#paragrafo-id{
+    background-color: aquamarine;
+}
+
+h1{
+    color: green;
+    font-size: 45px;
+    border: 10px;
+    border-color: red;
+}
