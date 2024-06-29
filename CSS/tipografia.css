@@ -1,0 +1,17 @@
+.paragrafo{
+    color: darkblue;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.titulo{
+    color: antiquewhite;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.dom{
+    color: red;
+}

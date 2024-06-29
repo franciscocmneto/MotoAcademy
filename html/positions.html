@@ -7,6 +7,15 @@
 </head>
 <body>
     
+
+
+    <div class="sticky-div">
+        <p>
+            esse texto gruda
+        </p>
+    </div>
+
+
     <h2>Position: Relative</h2>
 
     <div style="width: 150px; border: 1px solid violet;">
@@ -15,12 +24,41 @@
         </div>
     </div>
 
+    <h2>Position: Relative</h2>
+
+    <div style="width: 150px; border: 1px solid violet;">
+        <div class="relative">
+            lorem ipsum
+        </div>
+    </div>
+
+    <h2>Position: Relative</h2>
+
+    <div style="width: 150px; border: 1px solid violet;">
+        <div class="relative">
+            lorem ipsum
+        </div>
+    </div>
 
     <h2>Position: Fixed</h2>
     <div class="fixed">
         Esse elemento é uma div fixed
     </div>
     
+    <h2>Position: Absolute </h2>
+    <div class="relative-absolute">
+        <div class="absolute">
+            essa div é absoluta
+        </div>
+    </div>
+
+    <h2>Position: Absolute </h2>
+    <div class="relative-absolute">
+        <div class="absolute">
+            essa div é absoluta
+        </div>
+    </div>
+
     <h2>Position: Absolute </h2>
     <div class="relative-absolute">
         <div class="absolute">
@@ -41,6 +79,13 @@
             /* margin: 90% 0%; */
             border: 3px solid gray;
         }
+
+        .sticky-div{
+            position: sticky;
+            top: 10%;
+        
+        }
+
 
         .relative-absolute{
             position: relative;
